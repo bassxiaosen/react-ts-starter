@@ -9,7 +9,7 @@ module.exports = {
   mode: devMode ? 'development' : 'production',
   devtool: devMode ? 'cheap-module-eval-source-map' : 'cheap-module-source-map',
   entry: {
-    index: __dirname + "/src/pages/Index/index.tsx",
+    index: __dirname + "/src/views/Index/index.tsx",
   },
   output: {
     path: __dirname + "/dist",//打包后的文件存放的地方
